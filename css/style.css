@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #53B587;
+    font-family: system-ui;
+    color: #FFF;
+}
+
+main {
+    margin: 4rem auto;
+    padding: 0;
+    background-color: #1C1C21;
+    width: 80%;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+h1#title {
+    font-size: 28pt;
+    text-align: center;
+}
+
+p#description {
+    font-size: 14pt;
+    text-align: center;
+}
+
+form#survey-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 16pt;
+    padding: 0 2rem;
+} 
+
+::placeholder {
+    font-size: 12pt;
+    color: #53B587;
+}
+
+label#name-label input {
+    width: 100%;
+    margin: 8px 0 24px 0;
+    height: 40px;
+    background-color: #1C1C21;
+    border: 0;
+    border-bottom: 2px solid #FFF;
+    outline: none;
+    transition: border-color .5s;
+}
+
+label#name-label input:focus {
+    transition: border-color .5s;
+    border-color: #53B587;
+    color: #53B587;
+    font-size: 12pt;
+}
+
+label#email-label input {
+    width: 100%;
+    margin: 8px 0 24px 0;
+    height: 40px;
+    background-color: #1C1C21;
+    border: 0;
+    border-bottom: 2px solid #FFF;
+    transition: border-color .5s;
+    outline: none;
+}
+
+label#email-label input:focus {
+    transition: border-color .5s;
+    border-color: #53B587;
+    color: #53B587;
+    font-size: 12pt;
+}
+
+label#number-label input {
+    width: 100%;
+    margin: 8px 0 24px 0;
+    height: 40px;
+    background-color: #1C1C21;
+    border: 0;
+    border-bottom: 2px solid #FFF;
+    transition: border-color .5s;
+    outline: none;
+}
+
+label#number-label input:focus {
+    transition: border-color .5s;
+    border-color: #53B587;
+    color: #53B587;
+    font-size: 12pt;
+}
+
+select#dropdown {
+    width: 100%;
+    margin: 8px 0 24px 0;
+    height: 40px;
+    background-color: #1C1C21;
+    border: 2px solid #53B587;
+    border-radius: 8px;
+    outline: none;
+    color: #53B587;
+    font-size: 12pt;
+}
+
+select#dropdown:focus {
+    color: #53B587;
+    font-size: 12pt;
+}
+
+div#radio {
+    margin: 8px 0 24px 0;
+}
+
+div#radio label {
+    width: 100%;
+    margin: 8px 0 24px 0;
+    height: 40px;
+    background-color: #1C1C21;
+    color: #FFF;
+    font-size: 14pt;
+    transition: color .3s;
+}
+
+div#radio label:hover {
+    transition: color .3s;
+    color: #53B587;
+}
+
+.rdb {
+    transform: scale(1.25);
+    margin: 10px;
+}
+
+div#check {
+    margin: 8px 0 24px 0;
+}
+
+div#check label {
+    width: 100%;
+    margin: 8px 0 24px 0;
+    height: 40px;
+    background-color: #1C1C21;
+    color: #FFF;
+    font-size: 14pt;
+    transition: color .3s;
+}
+
+.box-select {
+    transform: scale(1.75);
+    margin: 10px;
+}
+
+div#check label:hover{
+    transition: color .3s;
+    color: #53B587;
+}
+
+label#txtarea {
+    margin: 8px 0 8px 0;
+}
+
+label#txtarea textarea {
+    margin: 16px 0;
+    width: 100%;
+    height: 64px;
+    outline: none;
+}
+
+button#submit {
+    height: 42px;
+    width: 80%;
+    background-color: #53B587;
+    margin: 8px auto;
+    border-radius: 30px;
+    font-size: 16pt;
+    color: #FFF;
+    letter-spacing: 1pt;
+    outline: none;
+    font-weight: normal;
+    border: 3px solid #53B587;
+    transition: width .5s, heigth .5s, background-color .5s, color .5s, font-size .5s, font-weight .5s, border-color .5s;
+}
+
+
+button#submit:hover {
+    transition: width .5s, heigth .5s, background-color .5s, color .5s, font-size .5s, border-color .5s;
+    width: 100%;
+    height: 46px;
+    background-color: #FFA500;
+    color:#000;
+    font-size: 24pt;
+    border: 3px solid #FFA500;
+}
